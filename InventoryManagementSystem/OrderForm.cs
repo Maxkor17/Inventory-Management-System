@@ -13,7 +13,7 @@ namespace InventoryManagementSystem
 {
     public partial class OrderForm : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\IT\Repository\InventoryManagementSystem\Tutorial Database\dbIMS.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=G:\IT\Repository\InventoryManagementSystem\dbIMS.mdf;Integrated Security=True;Connect Timeout=30");
         SqlCommand cm = new SqlCommand();
         SqlDataReader dr;
 
